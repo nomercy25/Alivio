@@ -265,29 +265,29 @@ ul .last-items {
     overflow-x: hidden;
   }
   .header-container {
-    max-width: 1170px;
+    max-width: 1370px;
   }
 
   .info-container {
-    max-width: 1170px;
+    max-width: 1370px;
   }
   .header-info-block {
-    width: 35%;
+    width: 30%;
   }
   .main-container {
-    max-width: 1170px;
+    max-width: 1370px;
   }
   .main-block {
     width: 100%;
   }
   .main-heading {
-    width: 50%;
+    width: 45%;
   }
   .main-subheading {
-    width: 50%;
+    width: 48%;
   }
   .main-subheading p {
-    width: 110%;
+    width: 100%;
   }
   .card {
     max-width: 30%;
@@ -296,7 +296,7 @@ ul .last-items {
     font-size: 25px;
   }
   .card-subheading {
-    width: 80%;
+    width: 70%;
     font-size: 18px;
   }
   .card-subheading p {
@@ -308,14 +308,14 @@ ul .last-items {
   }
   .text-block2 {
     margin-top: -40px;
-    width: 82%;
+    width: 75%;
   }
   .third-card {
     margin-top: 5%;
   }
   .text-block3 {
     margin-top: -15px;
-    width: 90%;
+    width: 80%;
   }
   .promo-wrapper {
     margin-top: 52px;
@@ -325,7 +325,7 @@ ul .last-items {
   }
   .promo-container {
     padding-top: 332px;
-    max-width: 1170px;
+    max-width: 1370px;
     margin: 0 auto;
   }
   .promo-blocks {
@@ -335,7 +335,7 @@ ul .last-items {
   .promo-heading p {
     font-size: 50px;
     font-weight: 700;
-    width: 60%;
+    width: 80%;
     line-height: 157%;
     color: #fff;
     font-family: "Georgia";
@@ -365,4 +365,134 @@ ul .last-items {
     align-items: center;
     background: #01996d;
   }
+  .video-container {
+  }
+  #video {
+    border-radius: 16px;
+  }
+  button img{
+    cursor: pointer;
+  }
+  #play-button {
+    position: absolute;
+    margin-top: -14%;
+    left: 80%;   
+  }
+  .product-container {
+    max-width: 1305px;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  .product-blocks {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .product-block {
+    position: relative;
+    z-index: 9;
+  }
+  .product-card {
+    width: 296px;
+    height: 293px;
+    position: absolute;
+    bottom: -100px;
+    left: -50px;
+    z-index: 999;
+    background: #fff;
+    border-radius: 4px;
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+  }
+  .product-card-supheading {
+    text-align: center;
+    margin-top: 29px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .border-sup {
+    border-bottom: 0.745942px solid #000;
+    width: 40%;
+    padding-top: 12px;
+    margin: 0 auto;
+  }
+  .card-img {
+    padding-top: 13px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .card-img-name {
+    margin-top: 13px;
+    text-align: center;
+    color: #000;
+  }
+  .card-heading {
+    margin-top: 32px;
+  }
+  .card-heading p {
+    width: 69%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Georgia";
+  }
+  ul  {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  li {
+    margin: 0 auto;
+    width: 56%;
+    font-size: 13px;
+    list-style-type:disc;
+    margin-top: 26px;
+  }
+  li p {
+    text-align: left;
+    font-weight: 400;
+  }
+  .second-product-block {
+    margin-left: 86px;
+  }
+  .product-supheading {
+    font-size: 25px;
+    color: #424242;
+  }
+  .product-heading {
+    margin-top: 38px;
+    width: 105%;
+    font-size: 50px;
+    line-height: 157%;
+    font-weight: 700;
+    color: #01996d;
+  }
+  .product-heading p {
+    font-family: "Georgia";
+  }
+  .product-subheading {
+    font-size: 20px;
+    color: #484848;
+    margin-top: 38px;
+    width: 100%;
+    line-height: 31px;
+  }
+  .product-btn {
+    margin-top: 40px;
+    width: 227px;
+    transition: .5s;
+  }
+  .product-btn:hover {
+    transform: scale(1.1);
+  }
+  .product-btn a {
+    color: #fff;
+    height: 65px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #01996d;
+    border-radius: 4px;
+  
+  }
+ 
 }
