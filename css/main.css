@@ -259,6 +259,206 @@ ul .last-items {
 .card-img img {
   max-width: 100%;
 }
+.promo-wrapper {
+  margin-top: 52px;
+  background: #245852;
+  width: 100%;
+  height: 922px;
+}
+.promo-container {
+  padding-top: 332px;
+  max-width: 1370px;
+  margin: 0 auto;
+}
+.promo-blocks {
+  display: flex;
+}
+
+.promo-heading p {
+  font-size: 50px;
+  font-weight: 700;
+  width: 80%;
+  line-height: 157%;
+  color: #fff;
+  font-family: "Georgia";
+}
+
+.promo-subheading p {
+  margin-top: 33px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+}
+.promo-btn {
+ margin-top: 56px;
+ width: 227px;
+ transition: 0.5s;
+}
+.promo-btn:hover {
+ transform: scale(1.1);
+}
+.promo-btn a {
+  font-size: 20px;
+  color: #fff;
+  border-radius: 4px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #01996d;
+}
+#video {
+  border-radius: 16px;
+}
+button img{
+  cursor: pointer;
+}
+#play-button {
+  position: absolute;
+  margin-top: -14%;
+  left: 74%;   
+}
+.product-container {
+  max-width: 1370px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.product-blocks {
+  display: flex;
+  justify-content: flex-start;
+}
+.product-block {
+  position: relative;
+  z-index: 9;
+}
+.product-card {
+  width: 296px;
+  height: 293px;
+  position: absolute;
+  bottom: -100px;
+  z-index: 999;
+  background: #fff;
+  border-radius: 4px;
+  filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+}
+.product-card-supheading {
+  text-align: center;
+  margin-top: 29px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.border-sup {
+  border-bottom: 0.745942px solid #000;
+  width: 40%;
+  padding-top: 12px;
+  margin: 0 auto;
+}
+.card-img {
+  padding-top: 13px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-img-name {
+  margin-top: 13px;
+  text-align: center;
+  color: #000;
+}
+.card-heading {
+  margin-top: 32px;
+}
+.card-heading p {
+  width: 69%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Georgia";
+}
+
+.card-heading  {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+.card-item {
+  list-style-type: disc;
+  font-size: 11px;
+  margin: 0 auto;
+  margin-left: 22%;
+  margin-top: 25px;
+}
+
+.second-product-block {
+  margin-left: 86px;
+}
+.product-supheading {
+  font-size: 25px;
+  color: #424242;
+}
+.product-heading {
+  margin-top: 38px;
+  width: 105%;
+  font-size: 50px;
+  line-height: 157%;
+  font-weight: 700;
+  color: #01996d;
+}
+.product-heading p {
+  font-family: "Georgia";
+}
+.product-subheading {
+  font-size: 20px;
+  color: #484848;
+  margin-top: 38px;
+  width: 100%;
+  line-height: 31px;
+}
+.product-btn {
+  margin-top: 40px;
+  width: 227px;
+  transition: .5s;
+}
+.product-btn:hover {
+  transform: scale(1.1);
+}
+.product-btn a {
+  color: #fff;
+  height: 65px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #01996d;
+  border-radius: 4px;
+
+}
+.footer-wrapper {
+  margin-top: 168px;
+  background: #245852;
+  height: 654px;
+  background-size: 100%;
+}
+.footer-container {
+  max-width: 1370px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+  padding-top: 106px;
+}
+.footer-links {
+  margin-top: 82px;
+}
+
+.footer-links li {
+  margin-top: 70px;
+}
+
+.footer-links li a {
+  color: #fff;
+}
 
 @media screen and (max-width: 1366px) {
   body {
@@ -365,8 +565,6 @@ ul .last-items {
     align-items: center;
     background: #01996d;
   }
-  .video-container {
-  }
   #video {
     border-radius: 16px;
   }
@@ -379,7 +577,7 @@ ul .last-items {
     left: 80%;   
   }
   .product-container {
-    max-width: 1305px;
+    max-width: 1370px;
     margin: 0 auto;
     margin-top: 120px;
   }
@@ -396,7 +594,6 @@ ul .last-items {
     height: 293px;
     position: absolute;
     bottom: -100px;
-    left: -50px;
     z-index: 999;
     background: #fff;
     border-radius: 4px;
@@ -434,22 +631,18 @@ ul .last-items {
     font-weight: 700;
     font-family: "Georgia";
   }
-  ul  {
+
+  .card-heading  {
     display: flex;
     flex-direction: column;
+  }
+ .card-item {
+    list-style-type: disc;
     margin: 0 auto;
+    margin-left: 22%;
+    margin-top: 25px;
   }
-  li {
-    margin: 0 auto;
-    width: 56%;
-    font-size: 13px;
-    list-style-type:disc;
-    margin-top: 26px;
-  }
-  li p {
-    text-align: left;
-    font-weight: 400;
-  }
+ 
   .second-product-block {
     margin-left: 86px;
   }
@@ -494,5 +687,32 @@ ul .last-items {
     border-radius: 4px;
   
   }
- 
+  .footer-wrapper {
+    margin-top: 168px;
+    background: #245852;
+    height: 654px;
+    background-size: 100%;
+  }
+  .footer-container {
+    max-width: 1370px;
+    margin: 0 auto;
+  }
+
+  .footer-logo {
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    padding-top: 106px;
+  }
+  .footer-links {
+    margin-top: 82px;
+  }
+
+  .footer-links li {
+    margin-top: 70px;
+  }
+
+  .footer-links li a {
+    color: #fff;
+  }
 }
