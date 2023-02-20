@@ -333,6 +333,7 @@ button img{
 }
 .product-block {
   position: relative;
+  margin-left: 60px;
   z-index: 9;
 }
 .product-card {
@@ -340,6 +341,7 @@ button img{
   height: 293px;
   position: absolute;
   bottom: -100px;
+  left: -60px;
   z-index: 999;
   background: #fff;
   border-radius: 4px;
